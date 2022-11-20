@@ -1,0 +1,16 @@
+﻿cl : 命令行  warning D9025: 正在重写“/sdl”(用“/GS-”)
+  Reverse1.c
+C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\Reverse1.c(439,27): warning C4133: “函数”: 从“unsigned short [10]”到“const char *”的类型不兼容
+C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\Reverse1.c(439,53): warning C4133: “函数”: 从“WCHAR [260]”到“const char *”的类型不兼容
+C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\Reverse1.c(439,79): warning C4133: “函数”: 从“unsigned short [11]”到“const char *”的类型不兼容
+C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\Reverse1.c(439,105): warning C4133: “函数”: 从“WCHAR [260]”到“const char *”的类型不兼容
+C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\Reverse1.c(445,29): warning C4133: “函数”: 从“unsigned short [12]”到“const char *”的类型不兼容
+C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\Reverse1.c(445,72): warning C4133: “函数”: 从“WCHAR [260]”到“char *”的类型不兼容
+C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\Reverse1.c(451,32): warning C4133: “函数”: 从“unsigned short [15]”到“const char *”的类型不兼容
+C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\Reverse1.c(451,75): warning C4133: “函数”: 从“WCHAR [260]”到“char *”的类型不兼容
+C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\Reverse1.c(529,38): warning C4267: “函数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\Reverse1.c(561,41): warning C4028: 形参 1 与声明不同
+C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\Reverse1.c(649,12): warning C4244: “初始化”: 从“time_t”转换到“int”，可能丢失数据
+C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\Reverse1.c(770,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\Reverse1.c(771,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  easyCs.vcxproj -> C:\Users\rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\eml和pdf隐写的加密\easyCs\x64\Debug\easyCs.exe

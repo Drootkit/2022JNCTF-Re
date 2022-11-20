@@ -1,0 +1,15 @@
+﻿  Reverse1.c
+D:\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(9531,5): warning C5105: 生成“已定义”的宏扩展具有未定义的行为
+C:\Users\Rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\5-crj-finish-exe-c\finish-eml和pdf隐写的加密\easyCs\Reverse1.c(453,44): warning C4133: “函数”: 从“WCHAR [260]”到“const char *”的类型不兼容
+C:\Users\Rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\5-crj-finish-exe-c\finish-eml和pdf隐写的加密\easyCs\Reverse1.c(453,86): warning C4133: “函数”: 从“WCHAR [260]”到“const char *”的类型不兼容
+C:\Users\Rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\5-crj-finish-exe-c\finish-eml和pdf隐写的加密\easyCs\Reverse1.c(459,54): warning C4133: “函数”: 从“WCHAR [260]”到“const char *”的类型不兼容
+C:\Users\Rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\5-crj-finish-exe-c\finish-eml和pdf隐写的加密\easyCs\Reverse1.c(464,57): warning C4133: “函数”: 从“WCHAR [260]”到“const char *”的类型不兼容
+C:\Users\Rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\5-crj-finish-exe-c\finish-eml和pdf隐写的加密\easyCs\Reverse1.c(540,38): warning C4267: “函数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\Users\Rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\5-crj-finish-exe-c\finish-eml和pdf隐写的加密\easyCs\Reverse1.c(660,12): warning C4244: “初始化”: 从“time_t”转换到“int”，可能丢失数据
+C:\Users\Rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\5-crj-finish-exe-c\finish-eml和pdf隐写的加密\easyCs\Reverse1.c(782,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\5-crj-finish-exe-c\finish-eml和pdf隐写的加密\easyCs\Reverse1.c(783,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 31 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  easyCs.vcxproj -> C:\Users\Rootkit\Desktop\2022江南大学信息安全竞赛\Reverse\5-crj-finish-exe-c\finish-eml和pdf隐写的加密\easyCs\x64\Release\easyCs.exe

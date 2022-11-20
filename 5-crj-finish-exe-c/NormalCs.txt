@@ -1,0 +1,33 @@
+
+flag = Jn5ec_Wi11_B3c0m3_M0r3_&_more_pr05p3r17y
+
+先检测是否存在记事本的进程和计算器的进程 -------> 这里通过把进程的名称进行vjny加密之后和这些密文比较【密文是Txet和htam】
+根据输入的长度
+根据输入先根据aes加密得到数组 ------->
+根据数组进行内置数组索引得到新的数组 --------->【硬编码的数组可以尝试用多线程或者tls或者先于main函数执行来排序】
+
+新的密文是：TrustUself，密钥是cybersecurityRAT
+
+新的数组是另一个密文[密钥是内置的一个字符串]  ---------> 【将密钥的奇数偶数位进行ror和rol】
+解密得到的结果进行base【base的码表是乱的，按照密钥进行位置交换，确保table别重复】编码 --------->
+base得到的结果进行一个维吉尼亚的混淆之后和一个字符“JNSEC{}”异或 --------->
+再进行一个base64【码表是正常的】编码 --------->
+最后和一个base字符串比较--------->
+
+成功之后给出弹窗：
+哥！我现实里没背景，没实力，今天真的是踢到铁板了，谁能想到，小小一个大学里居然隐藏着如此高明的网络安全工程师。事已至此，你杀鸡儆猴我毫无怨言，要打要杀随您的便，我只求你祸不及我家人。如果有来世，互联网这趟浑水，我不趟也罢。
+Elder brother! I have no background in reality, no strength, today is really kicked to the iron plate, who can think, a small university actually hides such a clever cyber security engineer. At this point, I have no complaints about killing chickens and monkeys, and if you want to fight and kill you, I only beg you to fail my family. If there is an afterlife, the Internet is muddy, I will not go.
+
+正向思路：
+首先判断进程 ---- > 跳到正常的函数输入 ---- >输入先进行aes加密 ---- > 得到的密文直接和自己的前六个字节异或得到新的密文（之前的aes查表得到新密文有问题） 
+【得到的数组传递到查表函数 ---- >从中得到新的密文  ---- > 调用aes解密函数解密得到的字符串】
+ ---- > 传递到base64加密函数，base是变表的 ---- > 加密得到的传递到 xor函数  ---- > 再进行正常的base编码  ---- > 进行比较 
+
+逆向思路：
+根据base解码 ---- > 得到的^JNSEC{} ------>逆向维吉尼亚密码得到 新的base -------> 再进行一个base解密 -------> 根据铭文的位置定位出位置来，位置是aes加密的密文 -------> 然后根据密钥进行解密就行了
+ 
+关键输入在两处：
+1，开始的输入，是验证码
+2，第二次的输入是一个密码，就是
+写不下去了，出题大致是按照这个思路来的
+
